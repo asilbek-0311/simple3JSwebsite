@@ -1,0 +1,36 @@
+/* //creating spacing variable for margin and padding */
+:root {
+  --spacing: 200rem;
+}  
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  width: 100vm;
+  color: white;
+  z-index: 99;
+  width: 100%;
+  margin: 0px, auto;
+  padding: 120px, 0px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, blockquote {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  grid-column: 2 / span 4;
+  margin-bottom: 100rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  grid-column: 2 / span 6;
+  margin-bottom: 30rem;
+}
